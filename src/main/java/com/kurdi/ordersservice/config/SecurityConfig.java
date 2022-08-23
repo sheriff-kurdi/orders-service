@@ -2,7 +2,7 @@ package com.kurdi.ordersservice.config;
 
 
 
-import com.kurdi.inventoryservice.auth.filters.JwtTokenVerifierFilter;
+import com.kurdi.ordersservice.filters.JwtTokenVerifierFilter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
